@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html , body, #root {
+    height: 100%;
+}
+
+body{
+    background-image: url(./img/globo-no-fundo-desfocado_11304-1149.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-font-smoothing:antialiased;
+}
+
+body,input,button{
+    font-family: Roboto, sans-serif;
+}
